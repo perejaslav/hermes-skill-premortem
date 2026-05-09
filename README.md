@@ -7,8 +7,17 @@
 
 ## Установка
 
+### Через tap (рекомендуется)
+
 ```bash
-hermes skill install https://github.com/perejaslav/hermes-skill-premortem
+hermes skills tap add perejaslav/hermes-skill-premortem
+hermes skills install premortem
+```
+
+### Через прямую ссылку
+
+```bash
+hermes skills install https://raw.githubusercontent.com/perejaslav/hermes-skill-premortem/main/SKILL.md --name premortem --category productivity
 ```
 
 ## Использование
@@ -22,8 +31,8 @@ hermes skill install https://github.com/perejaslav/hermes-skill-premortem
 ## Структура
 
 ```
-premortem/
 ├── SKILL.md                       # ядро: 4 фазы
+├── README.md
 └── references/
     ├── angle-pool.md              # типы планов → 6 углов зрения
     ├── bias-checklist.md          # 6 биасов Канемана
