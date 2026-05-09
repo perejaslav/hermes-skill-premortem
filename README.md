@@ -7,9 +7,15 @@
 
 ## Установка
 
+Через прямую URL (рекомендуется):
+```bash
+hermes skills install https://raw.githubusercontent.com/perejaslav/hermes-skill-premortem/main/skills/premortem/SKILL.md
+```
+
+Через tap + install (менее надёжно — tap даёт доступ к hub-поиску, но регистрация тапа в Hermes может не найти скилл автоматически):
 ```bash
 hermes skills tap add perejaslav/hermes-skill-premortem
-hermes skills install premortem
+# Затем — install по прямой ссылке, как показано выше
 ```
 
 ## Использование
